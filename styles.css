@@ -1,0 +1,92 @@
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
+.phone{
+  position: relative;
+  margin: 50px auto;
+  padding-top:90px ;
+  text-align: center;
+  width: 750px;
+  height: 650px;
+  background-image:url('./img/card.png') ,url('./img/depositphotos_167253388-stock-illustration-high-detail-phone-front-side.jpg');
+  background-repeat: no-repeat;
+  background-size: 290px 190px , 750px 650px;
+  background-position:48% 22% ;
+  
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 240px;
+}
+
+.form-label-first{
+  text-align: left;
+  color: lightgray;
+  margin-bottom: 25px;
+  padding-left: 250px;
+  background-image: url('./img/lock.svg');
+  background-repeat: no-repeat;
+  background-position:top 50% left 224px;
+  font-size: 20px;
+}
+
+.form-label-second{
+  text-align: left;
+  color: lightgray;
+  margin-bottom: 25px;
+  padding-left: 250px;
+  background-image: url('./img/plane.svg');
+  background-repeat: no-repeat;
+  background-position:top 50% left 224px;
+  font-size: 20px;
+}
+
+.form-label-third{
+  text-align: left;
+  color: lightgray;
+  margin-bottom: 25px;
+  padding-left: 250px;
+  background-image: url('./img/laptop.svg');
+  background-repeat: no-repeat;
+  background-position:top 50% left 224px;
+  font-size: 20px;
+}
+
+.form-label-fourth{
+  text-align: left;
+  color: lightgray;
+  margin-bottom: 25px;
+  padding-left: 250px;
+  background-image: url('./img/atm.svg');
+  background-repeat: no-repeat;
+  background-position:top 50% left 224px;
+  font-size: 20px;
+}
+
+strong{
+  color: black;
+}
+
+.form-span{
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.form-input:checked ~ .form-span{
+  background-color: #5288F4;
+}
+
