@@ -107,7 +107,8 @@ strong{
 .form-span{
   display: inline-block;
   margin-bottom: 50px;
-  justify-content: space-between;
+  /* justify-content: space-between;
+  align-items: center; */
   position: relative;
   width: 50px;
   height: 25px;
@@ -123,7 +124,6 @@ strong{
   display: inline-block;
   position: absolute;
   left: -1px;
-  display: inline-block;
   height: 24px;
   width: 24px;
   border-radius: 50%;
@@ -133,6 +133,6 @@ strong{
 }
 
 .form-input:checked ~  .form-span > .span-inner{
-  right: 0px;
+  transform: translateX(96%);
 }
 
